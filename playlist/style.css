@@ -1,0 +1,146 @@
+body {
+    padding-left: 20%;
+    padding-right: 28%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.container {
+    background-color: rgb(202, 189, 237);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.playlist-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.main-box {
+    background-color: white;
+    width: 95%;
+    height: 98%;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.random-love {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.album-art {
+    width: 150px;
+    height: 150px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+#buttons {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.play {
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.like {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.add {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.music-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+}
+
+.song-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-top: 45px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.song-title {
+    font-size: 1.1rem;
+}
+
+.song-artist {
+    font-size: 0.85rem;
+}
+
+.matargasti { background-color: red;}
+.attitude { background-color: pink;}
+.try-everything { background-color: blue;}
+.sunflower { background-color: gray;}
